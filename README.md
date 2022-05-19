@@ -1,6 +1,6 @@
 # Motion-Planning-For-Autonomous-Vehicles
 
-The Project involved Implementing a Behavoiur Planner and a Motion Planner for Automated Driving in Carla Simulation Environment. 
+The Project involved Implementing a Behavoiur Planner and a Motion Planner for Automated Driving (in C++) and Setting up Simulation environment in CARLA including the Carla Client interface (in Python) for testing the algorithm on simulated vehicle.
 Car should be able to follow its Driving Lane, Safely Avoid static obsctacles on its way and Stop at Traffic Lights. 
 
 
@@ -10,7 +10,7 @@ Car should be able to follow its Driving Lane, Safely Avoid static obsctacles on
 
 ### Behaviour Planning 
 This module is supposed to take decisons about selecting an appropriate driving Maneuver based on the Car's immediate environment and actual driving Scenario in Simulation.
-Possible Maneuvers ata any given time are : 
+Possible Maneuvers at any given time are : 
 1. Follow Lane and drive at Cruise Speed 
 2. Deaccelerating and Braking to Stop at Traffic Lights 
 3. Remain Standstill until Traffic Light Turns Green.
